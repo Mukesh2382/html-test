@@ -127,6 +127,7 @@
     font-size: 24px;
     font-weight: 600;
     color: #575757;
+    margin: 0px;
 }
 .small-thin{
     margin-top: 0px;
@@ -139,4 +140,42 @@
 
 .second-section{
     padding: 100px 135px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap : 64px;
+
+}.first-half{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 134px;
 }
+.first-left{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67.2px;
+    margin: 0px;
+}
+.orange{
+    color:#FB9333;
+}
+.text-caps{
+    margin: 0px;
+}
+.first-right{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #828282;
+}
+.first-right{
+    
+    text-align: end;
+}
+.right-text{
+    margin: 0px;
+}
+
