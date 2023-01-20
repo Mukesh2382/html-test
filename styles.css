@@ -26,7 +26,6 @@
     color: #FB9300;
 }
 .first-section{
-    
     padding: 30px 135px;
 }
 
@@ -136,4 +135,8 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #828282;
+}
+
+.second-section{
+    padding: 100px 135px;
 }
