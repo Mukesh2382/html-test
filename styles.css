@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+.logo{
+    display: flex;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.jez{
+    margin-right: 10px;
+    color: #FB9333;
+}
+.active{
+    color: #FB9300;
+}
+.first-section{
+    
+    padding: 30px 135px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    padding: 10px;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.signup1{
+    background-color: #FB9333;
+    height: 54px;
+    width: 130px;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: #FB9333;
+}
+.content{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50% ;
+}
+.best-healthy-salad{
+    background: #FFF0DC;
+    border-radius: 100px;
+    width: 213px;
+    height: 53px;
+    border: #FFF0DC;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FB9333;
+}
+.content-right{
+    width: 50%;
+    top: 0px;
+}
+.skip{
+    margin: 0px;
+    color:#575757;
+}
+.text-content{
+    font-size: 72px;   
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.text{
+    margin:0px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color:#828282;
+}
+.order-food{
+    width: 192px;
+    height: 68px;
+    background: #FB9333;
+    border-radius: 100px;
+    border: #FB9333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+.ratings-bar{
+    margin-top: 58px;
+    display: flex;
+    height: 64px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 52px;
+
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.big-bold{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #575757;
+}
+.small-thin{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #828282;
+}
