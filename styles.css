@@ -459,5 +459,51 @@
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 24px;
+}
 
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 135px;
+    gap: 71px;
+}
+
+.fourth-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+}
+
+.fourth-text-small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    color: #FB9333;
+    margin: 0px;
+}
+
+.fourth-text-big {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    color: #585858;
+    margin: 0px;
+}
+
+.fourth-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-around;
+    align-self: stretch;
 }
